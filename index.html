@@ -2,67 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Horizon Software</title>
+<title>Andrew Smith's Home Page</title>
 </head>
 
 <body>
-<h1 align="center">Horizon</h1>
-<p><em>Horizon</em> is a GIS tool designed for archaeoastronomers  investigating alignments of prehistoric monuments with astronomical phenomena (<em>e.g.</em> rising and setting of the Sun, Moon and stars). It gets its name from its primary function, which is calculating accurate horizon profiles using DTM/DEM mapping data. More generally, it is a landscape visualisation tool which can generate full 360-degree panoramic scenes using 3D rendering techniques, which may have some applications in the field of landscape archaeology. Possible applications include:</p>
-<ul>
-  <li> Analysis of field measurements using calculated horizons which are not subject to obscuration by atmospheric conditions, vegetation or modern structures.</li>
-  <li>Allows an archaeologist working in the field to visualise astronomical phenomena in relation to the observed landscape. The software has been deliberately designed with minimal computing resource requirements so that it can be run on small portable computers (<em>e.g.</em> netbooks or tablets).</li>
-  <li>Creating realistic horizons for use with <a href="http://www.stellarium.org"><em>Stellarium</em></a>.</li>
-</ul>
-<p>This program  is not, and never will be, a realtime virtual reality (VR) simulator, a tool for rendering photorealistic images, or a planetarium simulator. There are plenty of other programs around that do these things better.</p>
-<h2>Installation:</h2>
-<p>The software should run under Microsoft Windows 2000 or higher (XP, Vista, 7, 8, 8.1 or 10). In addition, it requires that the Microsoft .NET Framework Version 2.0 be installed first, if it has not been so already. The package you will need to install (if any) depends on which version of the operating system you are running:</p>
-<ul>
-  <li>Windows 2000 and XP: <a href="http://www.microsoft.com/en-us/download/details.aspx?id=1639">Framework v2.0</a></li>
-  <li>Windows Vista and Windows 7: Framework v2.0 is included in Framework v3.x, which is installed by default.</li>
-  <li>Windows 8, 8.1 and 10: <a href="http://www.microsoft.com/en-au/download/details.aspx?id=22">Framework v3.5</a></li>
-</ul>
-<p>Note that I am currently only able to perform testing under Windows 10.  The other Windows  versions listed above should work, but these are not guaranteed.</p>
-<p>Please ensure that your system also has the latest security and quality patches for the .NET Framework installed. </p>
-<p>For most functions, the hardware requirements (CPU and RAM) are modest by today's standards. <em>Horizon</em> will run in as little as 512 megabytes of RAM, but works best with 1 gigabyte or more. Both 32 and 64 bit  processors are supported.</p>
-<p>The executable is distributed as a MSI (Microsoft Installer) package, so installation is largely automatic. The installer isn't very smart, so it is a good idea to manually uninstall the previous version, if any, before you install the new version (through Control Panel - Add or Remove Programs). Then  click on the installation package and follow the prompts.</p>
-<h2>Download:</h2>
-<p>The installation package contains the <em>Horizon</em> executable and the documentation in PDF format. The installer will create links to both the executable and the documentation in the Programs menu under the Start button, as well as an icon on the Desktop.</p>
-<p>Although you should ideally download and install the latest version, the last few versions will be retained in case you experience problems and have to go back to an earlier version (available <a href="archive.html">here</a>). The following lists only the most important changes since the last publicly-released version. It is recommended that existing users read Section 3.1 of the PDF documentation, which summarises the changes since the last major release.</p>
-<p>Version 0.13a was released on 01-Jan-2020. It is now replaced by Version 0.13c, which fixes several major bugs in Version 0.13a.</p>
-<ul>
-  <li><a href="horizon013c.msi">Version 0.13c</a> (30-Jan-2020).  New features in Version 0.13a were:
-    <ul>
-      <li>Fixed: Numerous bugs in the calculation engine and user interface, including all bugs which were reported to me.</li>
-      <li>Fixed: Support for the latest 3-arcsecond SRTM (90m) data files available from  <a href="http://srtm.csi.cgiar.org">http://srtm.csi.cgiar.org</a>. Although <em>Horizon</em> has supported the SRTM data for many years, the CGIAR website was apparently updated in November 2018 and the format of the files was changed.</li>
-      <li>Modified: Expanded the database of bright stars, down to magnitude +2.0.</li>
-      <li>Added: New tools to explore and compare the apparent brightness of bright stars, taking atmospheric extinction into account.</li>
-    </ul>
-  </li>
-</ul>
-<h2>News:</h2>
-<p><u>30-Jan-2020</u></p>
-<p><a href="horizon013c.msi">Version 0.13c</a> has been released. This also is bug-fix release, and contains no new functionality.</p>
-<p><u>09-Jan-2020</u></p>
-<p>Version 0.13b has been released. This is a bug-fix release only, and contains no new functionality.</p>
-<p><u>01-Jan-2020</u></p>
-<p>Version 0.13a has been released.</p>
-<p><a name="20190422a"><u>22-Apr-2019</u></a></p>
-<p>It was brought to my attention today (thanks Gail!) that this website had been compromised. Investigation has revealed that some of the site configuration files had been modified so that your browser would be redirected to a dodgy site if you were referred here by one of the popular search engines. I have deleted the files responsible and determined that none of the other content on this site was affected. Everything should be back to normal as of 13:30UTC today.</p>
-<p><u>14-Jan-2019</u></p>
-<p>Version 0.12a has finally been released! Better late than never...</p>
-<p><u>19-Dec-2018</u></p>
-<p><em>Horizon</em> is 20 years old today! I began writing <em>Horizon</em> in early December 1998 and on the 19th of December the code had progressed to the point at which it was able to generate its very first horizon profile. I am now feeling rather old and I'm wondering what the hell has happened to the two decades of my life that have passed since that day :-)</p>
-<h2>Data:</h2>
-<p>For various reasons (primarily efficiency), <em>Horizon</em> uses a proprietry file format  for DTM data.  There are many existing file formats for DTM data,  but none of these are directly supported.   Data files will need to be converted into a format compatible with <em>Horizon</em>. Currently, the the software only provides conversion tools for the 1&nbsp;arcsecond (30m) and 3&nbsp;arcsecond (90 metre) <a href="https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission">SRTM</a> datasets. I am able to convert some other formats, but have only completed a user-friendly version of the SRTM conversion tools. This should suffice for demonstration and evaluation purposes, but is not recommended if high-accuracy results are required. Please contact me if you have data in other formats.</p>
-<h3>SRTM</h3>
-<p>The 1 arcsecond SRTM conversion tool has been tested with SRTMHGT files from the <a href="https://www.usgs.gov">USGS</a>. The data are available as 1 by 1 degree tiles, so it is usually necessary to download many files. The most user-friendly interface for downloading these files is from <a href="http://dwtkns.com/srtm30m/">http://dwtkns.com/srtm30m</a>. You will need to create a login on <a href="https://urs.earthdata.nasa.gov/home">NASA Earthdata</a> to download the files.</p>
-<p>The 3&nbsp;arcsecond SRTM conversion tool has been tested with the CGIAR-CSI SRTM Version 4.1 dataset available from <a href="http://srtm.csi.cgiar.org">http://srtm.csi.cgiar.org</a> (both <a href="https://en.wikipedia.org/wiki/Esri_grid">ArcASCII</a> and <a href="https://en.wikipedia.org/wiki/GeoTIFF">GeoTIFF</a> formats, available as 5 by 5 degree tiles). From here, the files can be downloaded by HTTP or FTP using a simple web browser interface. A more sophisticated download interface for the GeoTIFF files is available from  <a href="http://dwtkns.com/srtm">http://dwtkns.com/srtm</a>.</p>
-<p>Further information about obtaining and converting SRTM data is given in Chapter 7 of the documentation (installed along with the executable).</p>
-<h3>Ordnance Survey</h3>
-<p>Coming soon!</p>
-<p><a href="../default.html">Site Home</a></p>
-<div>
-  <div id="ftn1"></div>
-</div>
+<h1 align="center">Andrew Smith's Boring Home Page</h1>
+<p>&nbsp;</p>
+<p><a href="horizon/index.html">Horizon Software</a></p>
 </body>
 </html>

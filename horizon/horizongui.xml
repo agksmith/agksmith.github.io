@@ -1,0 +1,12 @@
+<horizongui>
+   <version>
+      <number>0.11b</number>
+      <date>01-Jan-2014</date>
+      <url>http://www.agksmith.net/horizon/horizon011b.msi</url>
+   </version>
+   <news>
+      <item date="13-Aug-2014" enabled="false">No news is good news.</item>
+      <item date="31-Jul-2014" enabled="true">Version 0.11c is due out any year now.</item>
+   </news>
+</horizongui>
+

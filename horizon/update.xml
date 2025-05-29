@@ -1,0 +1,14 @@
+<update>
+   <horizongui>
+      <version>
+         <number>0.13c</number>
+         <date>30-Jan-2020</date>
+      </version>
+      <install>
+         <url>http://www.agksmith.net/horizon/horizon013c.msi</url>
+      </install>      
+	  <webservices>
+         <url>http://www.agksmith.net/webservices/horizon.asmx</url>
+      </webservices>
+   </horizongui>
+</update>
