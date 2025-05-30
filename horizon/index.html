@@ -54,11 +54,13 @@
 
 
 <h2>News</h2>
+
 <p><u>31-May-2025</u></p>
 <p>This page has been updated (and about bloody time too, I hear you say) and the website has been moved to a new hosting provider.</p>  
 
 
 <h2>Data</h2>
+
 <p>For various reasons (primarily efficiency), <em>Horizon</em> uses a proprietry file format for DTM data. There are many existing file formats for
    DTM data,  but none of these are directly supported. Data files will need to be converted into a format compatible with <em>Horizon</em>. 
    Currently, the software only provides conversion tools for the 1&nbsp;arcsecond (30m) and 3&nbsp;arcsecond (90 metre)
@@ -82,13 +84,14 @@
 <p>Further information about obtaining and converting SRTM data is given in Chapter 7 of the documentation (installed along with the executable).</p>
 
 <h3>Ordnance Survey</h3>
+
 <p>The <a href="https://www.ordnancesurvey.co.uk/">Ordnance Survey</a> (OS) is the national mapping agency for Great Britain (England, Scotland and Wales).
    The OS produces a number of DTM products at varying resolutions, but only the 50m
    <a href="https://www.ordnancesurvey.co.uk/products/os-terrain-50">Terrain&nbsp;50</a> dataset is free for everyone to download and use.</p> 
 <p>A converter for Terrain&nbsp;50 data is not built into <em>Horizon</em>, but you can download the 2023 release of the Terrain&nbsp;50 dataset from
    <a href="https://www.dropbox.com/scl/fi/nbiu4uzzzdiyrdlcd9pms/terrain50-2023.zip?rlkey=h90prilo1dbxmwltyqy7qi3mr&st=5q5dtbuv&dl=1">here</a>.
-   The ZIP file contains all 2,858 tiles from the dataset converted into the <em>Horizon</em> native format.  To install, simply unzip the file into
-   a folder on your local hard drive.</p>
+   The ZIP file (103Mb) contains all 2,858 tiles from the dataset converted into the <em>Horizon</em> native format.  To install, simply unzip the file
+   into a folder on your local hard drive.</p>
 <p>Note that the Terrain&nbsp;50 dataset does not identify internal bodies of water (lakes or rivers). The converted dataset provided has been processed
    with a simple algorithm which attempts to find areas that correspond to internal bodies of water and mark the associated DTM cells accordingly.  
    On the whole it seems to work well, apart from an unexpected expanse of water in East Anglia. This is either a bug or a feature depending upon your
